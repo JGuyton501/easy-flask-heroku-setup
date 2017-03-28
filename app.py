@@ -1,9 +1,16 @@
-from flask import Flask 
-app = Flask(__name__) 
+import os,sys
+from flask import Flask, render_template, request, url_for, redirect
+from flask_sqlalchemy import SQLAlchemy
 
-@app.route('/') 
-def hello(): 
-	return "Hello World!" 
+app = Flask(__name__) 
+app.debug = True
+
+# PostgreSQL for Heroku
+# app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
+
+@app.route('/')
+def home():
+    return render_template('home.html')
 
 if __name__ == '__main__': 
 	app.run()
