@@ -1,3 +1,8 @@
+Flask/Python Setup &mdash; and so much more
+===========
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
 ### Instant Flask/Python kit ready to be deployed
  
 
@@ -62,3 +67,6 @@ CREATE DATABASE <your_database> WITH OWNER <your_username>;
 
 Now you should have a development database setup on your local machine for the app to use.
 
+## Author Note
+
+Released by [Justin Guyton](https://github.com/JGuyton501) on March 27, 2017.
