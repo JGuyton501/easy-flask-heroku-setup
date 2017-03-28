@@ -1,0 +1,7 @@
+{
+  "name": "Flask Application",
+  "description": "A Python app using Materialize.css",
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ]
+}
